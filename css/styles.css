@@ -76,14 +76,14 @@ header {
 }
 
 header h1 {
-  font-size: 72px;
+  font-size: 48px;
   color: #2d2b30;
   text-transform: uppercase;
-  margin: 120px 0 20px 0;
+  margin: 80px 0 20px 0;
 }
 
 header span {
-  font-size: 36px;
+  font-size: 28px;
   color: #CC0030;
   font-weight: bold;
 }
@@ -209,6 +209,15 @@ a.social:hover {
 
   header {
     min-height: 470px;
+  }
+
+  header h1 {
+    font-size: 72px;
+    margin: 120px 0 20px 0;
+  }
+
+  header span {
+    font-size: 36px;
   }
 
   .nav {
